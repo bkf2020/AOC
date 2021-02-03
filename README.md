@@ -6,7 +6,7 @@ This is my code for Advent of Code (all the years I particpate in). No written s
 
 # Running these solutions
 - Use the `g++` complier: `g++ solution.cpp -o solution` (for UNIX systems, e.g.: Linux, MacOS, OpenBSD) or `g++ solution.cpp -o solution.exe` (for Windows, make sure to install mingw)
-- Alternatively, just download the binaries from the `binaries` folder for each year
+- Alternatively, just download the binaries (only for Windows currently) from the `binaries` folder for each year
 - Replace `solution.cpp` with `day#.cpp` (e.g.: `day1.cpp`)
 - Feel free to replace `solution` or `solution.exe` with your preferred name for the executable.
 - Run with `./solution < inputfile.in` or `solution.exe <inputfile.in` (use this with CMD on Windows)
