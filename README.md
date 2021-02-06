@@ -1,5 +1,5 @@
 # AOC
-This is my code for Advent of Code (all the years I particpate in). No written solutions on a wiki for the time being. Each year has a folder with the year number.
+This is my code for Advent of Code (for all the years that I work on the problems). No written solutions on a wiki for the time being. Each year has a folder with the year number. Advent of Code is available at [https://adventofcode.com.](https://adventofcode.com/)
 
 The source code for each day is in a folder called `day#`. Each day has two files, `day#part1.cpp` and `day#part2.cpp`. There are also binaries in the `day#` folder for part1 and part2.
 
@@ -17,4 +17,4 @@ The source code for each day is in a folder called `day#`. Each day has two file
 
 # Updates
 - Completed day 4 (2020) solution! (Quite messy though)
-- Rewriting solutions without `#include <bits/stdc++.h>
+- Rewriting solutions without `#include <bits/stdc++.h>`
