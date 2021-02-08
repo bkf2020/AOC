@@ -5,6 +5,7 @@ The source code for each day is in a folder called `day#`. Each day has two file
 
 # Other notes
 - I may not be able to solve all the problems, and may not be able to finish all the problems. I may not do a problem each day, by the way...
+- Problem 9 part 2 uses a brute force solution, which may be slower on older computers... Realized from [here](https://github.com/mebeim/aoc/blob/master/2020/README.md#day-9---encoding-error) that a better solution would be to use binary search to find the two places the subarray starts and ends, and then loop through that subarray for the minimum value.
 
 # Running these solutions
 - Use the `g++` complier: `g++ solution.cpp -o solution` (for UNIX systems, e.g.: Linux, MacOS, OpenBSD) or `g++ solution.cpp -o solution.exe` (for Windows, make sure to install mingw)
