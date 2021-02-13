@@ -9,12 +9,12 @@ Advent of Code is available at [https://adventofcode.com.](https://adventofcode.
 
 # Running these solutions (C++: `.cpp` extension)
 - Use the `g++` complier: `g++ solution.cpp -o solution` (for UNIX systems, e.g.: Linux, MacOS, OpenBSD) or `g++ solution.cpp -o solution.exe` (for Windows, make sure to install mingw)
-- You can also use other compliers, since solutions don't use `#include <bits/stdc++.h>` anymore
+	- You can also use other compliers, since solutions don't use `#include <bits/stdc++.h>` anymore
 - Replace `solution.cpp` with `day#part#.cpp` (e.g.: `day1part1.cpp`)
 - Feel free to replace `solution` or `solution.exe` with your preferred name for the executable.
 - Run with `./solution < inputfile.in` or `solution.exe <inputfile.in` (use this with CMD on Windows)
-- Replace `inputfile.in` with `day#.in`, like `day1.in`
-- **NOTE:** You will have to create your own input files. To do this, get the input on the Advent of Code website for your account. Also, the extension for such a file does not have to be `.in`.
+	- Replace `inputfile.in` with `day#.in`, like `day1.in`
+	- **NOTE:** You will have to create your own input files. To do this, get the input on the Advent of Code website for your account. Also, the extension for such a file does not have to be `.in`.
 
 # Running these solutions (python: `.py` extension)
 - Type `python filename.py` where `filename.py` is the solution file
