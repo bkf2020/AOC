@@ -1,4 +1,4 @@
-# https://w3schools.com/python/ref_file_read.asp
+# https://www.w3schools.com/python/ref_file_read.asp
 f = open("day13.in", "r")
 wanted_time = int(f.readline())
 buses_str = f.readline().split(',')
