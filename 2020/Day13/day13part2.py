@@ -9,8 +9,8 @@ every_working_bus = []
 curr_remainder = 0
 for b in buses_str:
 	if b != 'x':
-		every_working_bus.append(b)
-		remainders[b] = curr_remainder
+		every_working_bus.append(int(b))
+		remainders[int(b)] = curr_remainder
 	curr_remainder += 1
 
 first_bus = every_working_bus[0]
