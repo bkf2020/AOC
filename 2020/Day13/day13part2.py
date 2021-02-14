@@ -12,7 +12,7 @@ curr_remainder = 0
 for b in buses_str:
 	if b != 'x':
 		every_working_bus.append(int(b))
-		remainders[int(b)] = curr_remainder
+		remainders[int(b)] = (int(b) - curr_remainder) % int(b)
 	curr_remainder += 1
 
 first_bus = every_working_bus[0]
@@ -40,20 +40,22 @@ a = remainders[m1]
 b = remainders[m2]
 
 x = (b - a) % m2
-x *= power(m1, m1 - 1, m2)
+x *= power(m1, m2 - 2, m2)
 x *= m1
+x += a
 
 m1 = m1 * m2
 a = x % m1
 
-for i in range(2, every_working_bus.len()):
+for i in range(2, len(every_working_bus)):
 	m2 = every_working_bus[i]
-	b = remaindrs[m3]
+	b = remainders[m2]
 	x = (b - a) % m2
-	x *= power(m1, m1 - 1, m2)
+	x *= power(m1, m2 - 2, m2)
 	x *= m1
+	x += a
 
 	m1 = m1 * m2
 	a = x % m1
 
-print(ans)
+print(a)
