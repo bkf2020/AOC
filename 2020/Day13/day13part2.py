@@ -14,12 +14,12 @@ for b in buses_str:
 	curr_remainder += 1
 
 first_bus = every_working_bus[0]
-ans = remainder[first_bus]
+ans = remainders[first_bus]
 
 while(1):
 	temp_works = True
 	for bus in every_working_bus:
-		if(ans % bus == remainder[bus]):
+		if(ans % bus == remainders[bus]):
 			temp_works = False
 			break
 	if(temp_works):
