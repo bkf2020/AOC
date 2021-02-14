@@ -1,6 +1,14 @@
-# Day 13
+Walkthroughs for 2020
+=====================
 
-**Part 1:**
+Available days:
+---------------
+- [Day 13][d13]
+
+Day 13
+--------
+
+###Part 1:
 
 You want a bus that leaves at `wanted_time`. For the bus with id `i`, it leaves at multiples of `i`. To find the nearest multiple of `i` to `wanted_time`, you take `ceil(wanted_time / i) * i`.
 
@@ -32,7 +40,7 @@ for b in buses_str:
 print(min_waiting * min_id)
 ```
 
-**Part 2:**
+###Part 2:
 
 My method is explained [here](https://github.com/mebeim/aoc/blob/master/2020/README.md#part-2-12). This is probably a better explanation than any I can offer. I basically used Chinese Remainder Theorem, as outlined there.
 
