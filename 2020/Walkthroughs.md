@@ -9,7 +9,7 @@ Here, `ceil` computes the smallest integer greater than or equal `wanted_time / 
 Now, reading in `wanted_time` is straightforward, but reading in the buses may be more difficult. You can read in the line with the id of the buses, and then use the `split` function to turn it into a list. Then you can go through each bus, and do what we did in the last paragraph, as long as the id isn't an 'x'.
 
 My code:
-``py
+```py
 # https://www.w3schools.com/python/ref_file_read.asp
 f = open("day13.in", "r")
 wanted_time = int(f.readline())
@@ -30,7 +30,7 @@ for b in buses_str:
 		min_id = bus_id
 		
 print(min_waiting * min_id)
-``
+```
 
 **Part 2:**
 
@@ -45,7 +45,7 @@ Also to take the inverse of a number `n` modulo `m`, I did `n ^ (m - 2)` as the 
 However, simple solutions are always great! I think this is a good solution from mebeim (probably should credit him!): https://github.com/mebeim/aoc/blob/master/2020/README.md#part-1-12. Also check out Errichto's code for this problem: https://github.com/Errichto/youtube/blob/master/AOC-2020/13-search/shuttle2.cpp.
 
 Code:
-``py
+```py
 import math
 
 # https://www.w3schools.com/python/ref_file_read.asp
@@ -101,4 +101,4 @@ for i in range(2, len(every_working_bus)):
 
 print(a)
 
-``
+```
