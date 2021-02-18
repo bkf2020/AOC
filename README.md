@@ -24,4 +24,4 @@ I may not be able to solve all the problems, and may not be able to finish all t
 - In the folder for each year, there is a `Updates.md` file.
 
 # Walkthroughs?
-- I will try to include a walkthrough file for some days. It will be called `Walkthroughs.md` in the folder for the year.
+- I will try to include a walkthrough file for some days. It will be called `Walkthroughs.md` in the folder for the year. You can also view these walkthroughs on the project's wiki, if you prefer that.
