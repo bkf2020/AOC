@@ -104,7 +104,6 @@ int main() {
 			for(int ticket = 0; ticket < all_tickets.size(); ticket++) {
 				if(!valid(conditions[con].a, conditions[con].b, conditions[con].c, conditions[con].d, all_tickets[ticket][col])) {
 					works = false;
-					//cout <<conditions[con].a <<' ' << conditions[con].b << ' ' << conditions[con].c << ' ' << conditions[con].d << ' ' << all_tickets[ticket][col]<<'\n';
 					break;
 				}
 			}
