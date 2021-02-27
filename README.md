@@ -1,5 +1,5 @@
 # AOC
-This is my code for Advent of Code (for all the years that I work on the problems). No written solutions on a wiki for the time being. Each year has a folder with the year number. The source code for each day is in a folder called `day#`. Each day has two files, `day#part1.cpp` and `day#part2.cpp`. Note `.cpp` might be a different extension if I choose to use another language.
+This is my code for Advent of Code (for all the years that I work on the problems). Each year has a folder with the year number. The source code for each day is in a folder called `day#`. Each day has two files, `day#part1.cpp` and `day#part2.cpp`. Note `.cpp` might be a different extension if I choose to use another language.
 
 Advent of Code is available at [https://adventofcode.com.](https://adventofcode.com/)
 
