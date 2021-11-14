@@ -9,6 +9,7 @@ map<int, vector<vector<char>>> tiles;
 vector<int> all_id;
 
 vector<vector<int>> grid_id;
+vector<vector<char>> final_grid;
 
 vector<vector<char>> flip_tile(vector<vector<char>> tile) {
 	vector<vector<char>> res;
@@ -19,8 +20,7 @@ vector<vector<char>> flip_tile(vector<vector<char>> tile) {
 			res[i][j] = tile[i][9 - j];
 		}
 	}
-	return res;
-}
+	return res; }
 
 vector<vector<char>> rotate(int deg, vector<vector<char>> tile) {
 	vector<vector<char>> res;
@@ -39,7 +39,7 @@ vector<vector<char>> rotate(int deg, vector<vector<char>> tile) {
 
 void try_all(vector<vector<int>> curr_grid_id, vector<vector<char>> curr_grid, map<int, bool> vis, int used) {
 	if(used == 144) {
-		grid_id = curr_grid_id;
+		final_grid = curr_grid;
 		return;
 	}
 	for(int id : all_id) {
@@ -115,6 +115,17 @@ int main() {
 	for(int i = 0; i < 120; i++) empty_grid[i].resize(120);
 	map<int, bool> empty_vis;
 	try_all(empty, empty_grid, empty_vis, 0);
-	long long ans = (long long) grid_id[0][0] * (long long) grid_id[11][0] * (long long) grid_id[0][11] * (long long) grid_id[11][11];
-	cout << ans << '\n';
+
+	int sx[12] = {0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110};
+	int sy[12] = {0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110};
+	for(int k = 0; k < 12; k++) {
+		for(int i = sx[k] + 1; i < sx[k] + 9; i++) {
+			for(int l = 0; l < 12; l++) {
+				for(int j = sy[l] + 1; j < sy[l] + 9; j++) {
+					cout << final_grid[i][j];
+				}
+			}
+			cout << '\n';
+		}
+	}
 }
