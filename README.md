@@ -5,6 +5,12 @@ Advent of Code is available at [https://adventofcode.com.](https://adventofcode.
 
 I may not be able to solve all the problems, and may not be able to finish all the problems. I may not do a problem each day, by the way...
 
+# Mirrors
+
+- [Github](https://github.com/bkf2020/AOC)
+- [Gitlab](https://gitlab.com/bkf2020/AOC)
+- [Codeberg](https://codeberg.org/bkf2020/AOC)
+
 # Running these solutions (C++: `.cpp` extension)
 - Use the `g++` complier: `g++ solution.cpp -o solution` (for UNIX systems, e.g.: Linux, MacOS, OpenBSD) or `g++ solution.cpp -o solution.exe` (for Windows, make sure to install mingw)
 	- You can also use other compliers, since solutions don't use `#include <bits/stdc++.h>` anymore
